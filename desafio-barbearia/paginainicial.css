@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-repeat: no-repeat;
+  background-image: url("/andre-reis-1_DAlXy0wng-unsplash.jpg");
+  background-size: cover;
+}
+
+nav {
+  position: absolute;
+  width: 100vw;
+  top: 0;
+}
+
+nav ul {
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+  background-color: transparent;
+}
+nav ul li {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  padding: 0 2rem 0 2rem;
+}
+li {
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  transition: 0.3s color ease-in-out;
+  transition: 0.3s transform ease-in-out;
+}
+
+li:hover {
+  color: #8b4513;
+  transform: scale(1.1);
+}
+
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+  font-size: 75px;
+  color: white;
+  position: static;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.loja {
+  display: flex;
+  gap: 50px;
+  margin-left: 230px;
+  transition: 0.3s transform ease-in-out;
+  margin-top: 30px;
+}
+.loja :hover {
+  transform: scale(0.9);
+}
+
+.loja p {
+  opacity: 0;
+}
+
+.portifolio {
+  display: flex;
+  gap: 65px;
+  margin-left: 280px;
+  transition: 0.3s transform ease-out;
+  margin-top: 30px;
+  
+}
+.portifolio:hover {
+  transform: scale(1.1);
+}
+img{
+  border-radius: 10px;
+}

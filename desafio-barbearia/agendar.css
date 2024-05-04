@@ -1,0 +1,76 @@
+/* Estilizações Gerais da página */
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+      background-repeat: no-repeat;
+    background-image: url("/andre-reis-1_DAlXy0wng-unsplash.jpg");
+    background-size: cover;
+ }
+ * {
+    margin: 0;
+    padding: 0;
+  }
+
+ nav {
+    width: 100vw;
+    top: 0;
+  }
+  
+  nav ul {
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    background-color: transparent;
+  }
+  nav ul li {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 0 2rem 0 2rem;
+  }
+  li {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    transition: 0.3s color ease-in-out;
+    transition: 0.3s transform ease-in-out;
+  }
+  
+  li:hover {
+    color: #8b4513;
+    transform: scale(1.1);
+  }
+ 
+ /* Estilização do conteudo */
+ 
+ .conteudo_01 {
+
+    background-color: rgba(150, 103, 47, 0.884);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    color: white;
+ }
+ .conteudo_01 p {
+    margin-bottom: 20px;
+ }
+ 
+ /* Estilização do Form */
+ 
+ form {
+    background-color: rgba(150, 103, 47, 0.884);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+    color: white;
+ }
+ form label {
+    display: block;
+    margin-bottom: 10px;
+ }
